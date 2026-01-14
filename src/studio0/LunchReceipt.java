@@ -3,6 +3,7 @@ package studio0;
 public class LunchReceipt {
 
 	public static void main(String[] args) {
+		System.out.println();
 		
 		double burritoPrice = 7.5;
 		double drinkPrice = 1.25;
@@ -15,6 +16,8 @@ public class LunchReceipt {
 		double total = subtotal + taxAmount;
 		
 		System.out.println("Your total was: $" + total);
+		System.out.println();
+
 	}
 	
 	
